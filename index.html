@@ -1,40 +1,165 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Andamanvibe.com - Best Andaman Tour Packages & Island Trips</title>
-    <meta name="description" content="Book affordable Andaman tour packages with Andamanvibe.com. Explore Havelock, Neil Island, scuba diving, and more. Trusted travel partner since 2015." />
-    <meta name="author" content="Andamanvibe" />
-    <link rel="canonical" href="https://andamanvibe.com" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the magic of Andaman and Nicobar Islands with AndamanVibe. Best tour packages for families and couples.">
+    <title>AndamanVibe | Discover the Magic of Andaman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <meta property="og:title" content="Andamanvibe.com - Best Andaman Tour Packages" />
-    <meta property="og:description" content="Book affordable Andaman tour packages. Explore Havelock, Neil Island, scuba diving and more." />
-    <meta property="og:type" content="website" />
+    <header class="main-header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">Andaman<span>Vibe</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
 
-    <meta name="twitter:card" content="summary_large_image" />
+    <main>
+        <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1589197331516-4d84593eb64b?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;">
+            <div class="hero-content container">
+                <h1>Discover the Magic of Andaman</h1>
+                <p>Crystal clear waters, white sandy beaches, and memories that last a lifetime.</p>
+                <a href="#packages" class="btn btn-primary">Explore Packages</a>
+            </div>
+        </section>
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "TravelAgency",
-      "name": "Andamanvibe.com",
-      "url": "https://andamanvibe.com",
-      "description": "Best Andaman tour packages and island trips",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Port Blair",
-        "addressRegion": "Andaman and Nicobar Islands",
-        "addressCountry": "IN"
-      },
-      "telephone": "+919876543210"
-    }
-    </script>
-    <script type="module" crossorigin src="/assets/index-BMI2wt97.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CF56H6_B.css">
-  </head>
+        <section id="packages" class="packages container">
+            <h2 class="section-title">Popular Tour Packages</h2>
+            <div class="package-grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&w=600&q=80" alt="Havelock Island">
+                    <div class="card-body">
+                        <h3>Havelock Honeymoon</h3>
+                        <p class="duration">5 Nights / 6 Days</p>
+                        <ul>
+                            <li>Candlelight Dinner</li>
+                            <li>Scuba Diving Intro</li>
+                            <li>Private Transfers</li>
+                        </ul>
+                        <p class="price">₹24,999 <span>/ person</span></p>
+                        <button class="btn btn-outline">Book Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Family Fun">
+                    <div class="card-body">
+                        <h3>Family Adventure</h3>
+                        <p class="duration">6 Nights / 7 Days</p>
+                        <ul>
+                            <li>Glass Bottom Boat</li>
+                            <li>Cellular Jail Tour</li>
+                            <li>Ross Island Visit</li>
+                        </ul>
+                        <p class="price">₹18,500 <span>/ person</span></p>
+                        <button class="btn btn-outline">Book Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1544735745-b89b57c7eb8f?auto=format&fit=crop&w=600&q=80" alt="Neil Island">
+                    <div class="card-body">
+                        <h3>Island Hopper Special</h3>
+                        <p class="duration">4 Nights / 5 Days</p>
+                        <ul>
+                            <li>Port Blair & Neil</li>
+                            <li>Sunset Cruise</li>
+                            <li>Snorkeling Gear</li>
+                        </ul>
+                        <p class="price">₹15,000 <span>/ person</span></p>
+                        <button class="btn btn-outline">Book Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1621251912030-97746f3638f3?auto=format&fit=crop&w=600&q=80" alt="Luxury Resort">
+                    <div class="card-body">
+                        <h3>Luxury Escape</h3>
+                        <p class="duration">7 Nights / 8 Days</p>
+                        <ul>
+                            <li>5-Star Resorts</li>
+                            <li>Helicopter Transfer</li>
+                            <li>Premium Seafood</li>
+                        </ul>
+                        <p class="price">₹45,000 <span>/ person</span></p>
+                        <button class="btn btn-outline">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <body>
-    <div id="root"></div>
-  </body>
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">What Our Guests Say</h2>
+                <div class="review-grid">
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Absolutely seamless experience. The Radhanagar beach sunset was the highlight of our trip!"</p>
+                        <h4>- Rahul Sharma</h4>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Best family vacation ever. AndamanVibe handled everything from ferries to food perfectly."</p>
+                        <h4>- Priya Iyer</h4>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★☆</div>
+                        <p>"Great guides and very professional. Scuba diving in Havelock is a must-try!"</p>
+                        <h4>- David Miller</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="location container">
+            <h2 class="section-title">Where to Find Us</h2>
+            <div class="location-content">
+                <div class="location-text">
+                    <p>Our main operations hub is located in the heart of Port Blair. We are just 10 minutes away from Veer Savarkar International Airport, making us easily accessible for all arriving travelers.</p>
+                    <p><strong>Address:</strong> MG Road, Port Blair, Andaman and Nicobar Islands 744101</p>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125023.74312019409!2d92.6586392336306!3d11.691104866657805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30889444ab065595%3A0x280e81f14300300d!2sPort%20Blair%2C%20Andaman%20and%20Nicobar%20Islands!5e0!3m2!1sen!2sin!4v1711200000000!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h3>AndamanVibe</h3>
+                <p>Your local experts for an unforgettable island experience.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p>Email: hello@andamanvibe.com</p>
+                <p>Phone: +91 98765 43210</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AndamanVibe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
