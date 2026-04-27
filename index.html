@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Andaman Vibe — Luxury Andaman Island Tours</title>
+  <meta name="description" content="Luxury Andaman tour packages — private yachts, 5-star resorts, tailored itineraries, diving, and exclusive experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Andaman Vibe</a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <button id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+        <ul id="primary-nav" class="nav" role="menubar">
+          <li role="none"><a role="menuitem" href="#packages">Packages</a></li>
+          <li role="none"><a role="menuitem" href="#itinerary">Itinerary</a></li>
+          <li role="none"><a role="menuitem" href="#gallery">Gallery</a></li>
+          <li role="none"><a role="menuitem" href="#booking">Book</a></li>
+          <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <button class="btn btn-ghost" id="cta-book">Book Your Escape</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-label="Luxury Andaman holiday" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop')">
+      <div class="hero-overlay">
+        <div class="container hero-content">
+          <h1 class="display">Discover Andaman in Unrivalled Luxury</h1>
+          <p class="lead">Private yachts, 5-star island resorts, tailored experiences — curated for discerning travelers.</p>
+          <div class="hero-actions">
+            <a href="#packages" class="btn btn-primary">Explore Packages</a>
+            <button class="btn btn-outline" id="cta-enquire">Request a Quote</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="packages" class="container section">
+      <header class="section-header">
+        <h2>Signature Luxury Packages</h2>
+        <p>Handcrafted itineraries featuring private transfers, curated dining, and exclusive excursions.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card" aria-labelledby="pkg-yacht">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop" alt="Private yacht on blue water" />
+          <div class="card-body">
+            <h3 id="pkg-yacht">Private Yacht Escape — 6 Nights</h3>
+            <p class="price">From INR 2,85,000 / person</p>
+            <ul>
+              <li>Private yacht with skipper & crew</li>
+              <li>Island-hopping: Havelock, Neil, Ross</li>
+              <li>Guided diving & snorkeling</li>
+              <li>Gourmet onboard dining</li>
+            </ul>
+            <div class="card-actions">
+              <button class="btn btn-primary book-now" data-package="Private Yacht Escape">Book Now</button>
+              <a class="btn btn-link" href="#itinerary">View Itinerary</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" aria-labelledby="pkg-resort">
+          <img src="https://images.unsplash.com/photo-1543147266-6d8e8f3b1e5b?q=80&w=1200&auto=format&fit=crop" alt="Luxury beachfront resort" />
+          <div class="card-body">
+            <h3 id="pkg-resort">Island Resort Retreat — 5 Nights</h3>
+            <p class="price">From INR 1,95,000 / person</p>
+            <ul>
+              <li>5-star beachfront resort stay</li>
+              <li>Spa credit & sunset cruise</li>
+              <li>Private guided tours</li>
+              <li>Personalized dining experiences</li>
+            </ul>
+            <div class="card-actions">
+              <button class="btn btn-primary book-now" data-package="Island Resort Retreat">Book Now</button>
+              <a class="btn btn-link" href="#itinerary">View Itinerary</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" aria-labelledby="pkg-dive">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop" alt="Underwater coral reef" />
+          <div class="card-body">
+            <h3 id="pkg-dive">Underwater Discovery — 7 Nights</h3>
+            <p class="price">From INR 2,45,000 / person</p>
+            <ul>
+              <li>Daily guided dives and snorkeling</li>
+              <li>Marine biologist-led excursions</li>
+              <li>Luxury beachside villas</li>
+              <li>All transfers & permits included</li>
+            </ul>
+            <div class="card-actions">
+              <button class="btn btn-primary book-now" data-package="Underwater Discovery">Book Now</button>
+              <a class="btn btn-link" href="#itinerary">View Itinerary</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="itinerary" class="container section bg-light">
+      <header class="section-header">
+        <h2>Sample Itinerary — Island Highlights</h2>
+        <p>Flexible templates that can be customized with private guides, dining, and timing.</p>
+      </header>
+
+      <div class="itinerary-grid" role="list">
+        <div class="day" role="listitem">
+          <h4>Day 1 — Arrival & Relax</h4>
+          <p>Private transfer from Port Blair airport to a premium resort. Sunset cocktail and private beach dinner.</p>
+        </div>
+        <div class="day" role="listitem">
+          <h4>Day 2 — Havelock: Radhanagar Beach</h4>
+          <p>Speedboat to Havelock, beach time at Radhanagar (rated Asia's best), sunset cruise.</p>
+        </div>
+        <div class="day" role="listitem">
+          <h4>Day 3 — Diving & Snorkeling</h4>
+          <p>Two guided dives or snorkeling at coral reefs; underwater photography session available.</p>
+        </div>
+        <div class="day" role="listitem">
+          <h4>Day 4 — Neil Island</h4>
+          <p>Chartered yacht to Neil Island with picnic on secluded sands and nature walks.</p>
+        </div>
+        <div class="day" role="listitem">
+          <h4>Day 5 — Ross Island & Cultural Walk</h4>
+          <p>Half-day historical tour to Ross Island followed by a curator-led cultural walk in Port Blair.</p>
+        </div>
+        <div class="day" role="listitem">
+          <h4>Day 6 — Spa & Departure</h4>
+          <p>Relaxing spa morning, gourmet brunch, private transfer to airport. Extensions available.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="container section">
+      <header class="section-header">
+        <h2>Gallery</h2>
+        <p>Visual highlights from our curated trips.</p>
+      </header>
+
+      <div class="gallery-grid" aria-live="polite">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?q=80&w=800&auto=format&fit=crop" alt="Radhanagar Beach" tabindex="0">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop" alt="Yacht" tabindex="0">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=800&auto=format&fit=crop" alt="Coral Reef" tabindex="0">
+        <img src="https://images.unsplash.com/photo-1543147266-6d8e8f3b1e5b?q=80&w=800&auto=format&fit=crop" alt="Resort" tabindex="0">
+      </div>
+    </section>
+
+    <section id="booking" class="container section booking-section">
+      <header class="section-header">
+        <h2>Book Your Luxury Escape</h2>
+        <p>Tell us your preferred dates, group size and let us tailor an unforgettable itinerary.</p>
+      </header>
+
+      <form id="booking-form" class="booking-form" aria-label="Booking form" novalidate>
+        <div class="form-grid">
+          <label>
+            Full name
+            <input type="text" name="name" id="name" required>
+          </label>
+
+          <label>
+            Email address
+            <input type="email" name="email" id="email" required>
+          </label>
+
+          <label>
+            Phone number
+            <input type="tel" name="phone" id="phone" required>
+          </label>
+
+          <label>
+            Preferred package
+            <select name="package" id="package-select">
+              <option>Private Yacht Escape</option>
+              <option>Island Resort Retreat</option>
+              <option>Underwater Discovery</option>
+            </select>
+          </label>
+
+          <label>
+            Travel dates
+            <input type="text" name="dates" id="dates" placeholder="e.g. 2026-12-20 to 2026-12-27" required>
+          </label>
+
+          <label>
+            Guests
+            <input type="number" name="guests" id="guests" min="1" value="2" required>
+          </label>
+        </div>
+
+        <label class="textarea-label">
+          Special requests / notes
+          <textarea name="notes" id="notes" rows="4" placeholder="Dietary preferences, celebrations, accessibility needs..."></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Request Quote</button>
+          <button type="reset" class="btn btn-outline">Reset</button>
+        </div>
+
+        <p id="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section id="contact" class="container section">
+      <header class="section-header">
+        <h2>Contact & Concierge</h2>
+        <p>We're available to craft bespoke experiences — reach out directly or use the booking form.</p>
+      </header>
+
+      <div class="contact-grid">
+        <div>
+          <h4>Head Office — Port Blair</h4>
+          <p>Phone: +91 99999 00000<br>Email: hello@andamanvibe.example</p>
+        </div>
+
+        <div>
+          <h4>Concierge Hours</h4>
+          <p>Mon–Sun: 08:00–20:00 IST<br>Emergency on-call 24/7</p>
+        </div>
+
+        <div>
+          <h4>Follow Us</h4>
+          <p class="socials">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" aria-label="X"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; 2026 Andaman Vibe — Crafted luxury island experiences. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Modal template -->
+  <template id="modal-template">
+    <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-inner" role="document">
+        <button class="modal-close" aria-label="Close">&times;</button>
+        <h3 id="modal-title">Request a Quote</h3>
+        <p id="modal-desc">We'll get back to you within 24 hours with a tailored quote.</p>
+      </div>
+    </div>
+  </template>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
