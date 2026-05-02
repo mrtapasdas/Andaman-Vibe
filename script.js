@@ -1,5 +1,5 @@
 /* ============================================================
-   AquaAndaman — script.js
+   Andamanvibe.com — script.js
    Navbar scroll, mobile menu, testimonial slider,
    scroll reveal, form handling, scroll progress bar
    ============================================================ */
